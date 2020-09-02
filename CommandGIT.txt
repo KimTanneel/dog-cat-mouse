@@ -1,0 +1,18 @@
+// git status
+// git add
+// git commit
+
+// git log
+// git show
+// git diff
+
+// git checkout
+// git reset
+
+git checkout -b <branch> (branching) --> Create new branchh
+git checkout branch	
+git merge
+A <-- B
+git checkout A
+git merge B
+master <---feature/dog-class
