@@ -1,7 +1,10 @@
-function cat(name){
-	name: name,
-	stomach:[]
+
+function Cat(){
+	this.stomach = []
 }
-function.prototype.eat(mouse){
-	this.stomach.push(mouse)
+Cat.prototype.eat = function(mouse){
+	this.stomach.push(mouse);
+	mouse.dead();
 }
+
+module.exports = Cat;
