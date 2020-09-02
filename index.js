@@ -8,5 +8,5 @@ var tom = new Cat();
 // console.log(tom);
 // console.log(Mouse1);
 var husky = new Dog('Husky');
-console.log(husky);
-husky.sayHi();
+husky.eat(tom);
+console.log(husky)
